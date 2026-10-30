@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=UWE-12/10-Q12PB-C
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=8
+Version=1.3
+Released=2019-03-04 17:27:28
+Downloaded=2026-02-15 23:05:33
+3D=Y

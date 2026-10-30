@@ -1,0 +1,18 @@
+.UWE-12_10-Q12PB-C :1 ;Isolated DC/DC Converters 120W 9-36Vin 12Vout Positive Logic w/BP
+UWE520Q48NC
+*STM IC
+*NGS
+*PLB 1="+VIN" 2="ON/OFF_CONTROL" 3="-VIN" 4="-VOUT" 5="-SENSE" 6="TRIM" 7="+SENSE" 8="+VOUT"
+*MXP 8
+*DFN UWE-12_10-Q12PB-C
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (UWE-12/10-Q12PB-C)
+~!Mouser Part Number (580-UWE-12/10Q12PBC)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/UWE-12-10-Q12PB-C?qs=k9tXbTTLydF4I%2FLCpt6DNQ%3D%3D)
+~!Arrow Part Number (UWE-12/10-Q12PB-C)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/uwe-1210-q12pb-c/murata-power-solutions?utm_currency=USD&region=nac)
+~!Link Datasheet (http://power.murata.com/data/power/uwe-100-120.pdf)
+~!Height (9mm)
+~!3D_Model (UWE-12_10-Q12PB-C)
+UWE-12_10-Q12PB-C
+1.1!I 2.1!U 3.1!I 4.1!Y 5.1!U 6.1!U 7.1!U 8.1!Y 
