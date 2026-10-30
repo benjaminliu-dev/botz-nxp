@@ -526,6 +526,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -636,6 +637,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -648,7 +657,7 @@
         "uuid": "3b84b015-9a2c-4738-9079-eaed691fd25e"
       }
     ],
-    "used_designators": "L1,J1-2,C1-7,#PWR1-14,U1-3,IC1",
+    "used_designators": "R1,R4-9,L1,J1-4,C1-12,C14-15,#PWR1-33,Y1,U1-3,IC1",
     "variants": []
   },
   "sheets": [
