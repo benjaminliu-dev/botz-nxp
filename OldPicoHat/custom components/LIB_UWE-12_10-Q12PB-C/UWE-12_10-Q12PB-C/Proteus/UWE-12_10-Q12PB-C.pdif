@@ -1,0 +1,159 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "UWE-12_10-Q12PB-C"
+   (description "Isolated DC/DC Converters 120W 9-36Vin 12Vout Positive Logic w/BP")
+   (family "ANA")
+   (package "UWE520Q48NC")
+   (attribute "Datasheet Link" "http://power.murata.com/data/power/uwe-100-120.pdf")
+   (attribute "Geometry.Height" "9mm")
+   (attribute "Manufacturer_Name" "Murata Electronics")
+   (attribute "Manufacturer_Part_Number" "UWE-12/10-Q12PB-C")
+   (attribute "Mouser Part Number" "580-UWE-12/10Q12PBC")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/UWE-12-10-Q12PB-C?qs=k9tXbTTLydF4I%2FLCpt6DNQ%3D%3D")
+   (attribute "Arrow Part Number" "UWE-12/10-Q12PB-C")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/uwe-1210-q12pb-c/murata-power-solutions?utm_currency=USD&region=nac")
+   (gate
+    (symbol "UWE-12_10-Q12PB-C")
+    (pin "+VIN" 1 IP)
+    (pin "ON/OFF_CONTROL" 2 PS)
+    (pin "-VIN" 3 IP)
+    (pin "-VOUT" 4 OP)
+    (pin "-SENSE" 5 PS)
+    (pin "TRIM" 6 PS)
+    (pin "+SENSE" 7 PS)
+    (pin "+VOUT" 8 OP)
+   )
+  )
+  (symbol "UWE-12_10-Q12PB-C"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1500 100) (pt 1500 -500) (pt 200 -500) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "UWE520Q48NC"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -29.2 11.45)
+      (pt 29.2 11.45)
+      (pt 29.2 -11.45)
+      (pt -29.2 -11.45)
+      (pt -29.2 11.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -29.2 11.43)
+      (pt 29.2 11.43)
+      (pt 29.2 -11.43)
+      (pt -29.2 -11.43)
+      (pt -29.2 11.43))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -31 12.45)
+      (pt 30.2 12.45)
+      (pt 30.2 -12.45)
+      (pt -31 -12.45)
+      (pt -31 12.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -29.9 7.7)
+      (arc (pt -29.900 7.700) (pt -30.000 7.500) (pt -29.800 7.700) (start -180.0) (sweep 90.0))
+      (pt -29.9 7.5)
+      (arc (pt -29.900 7.500) (pt -30.000 7.500) (pt -29.800 7.700) (start -180.0) (sweep -90.0))
+      (pt -29.9 7.7))))
+   (leg 1 (pt -25.400 7.620) (padstack 0))
+   (leg 2 (pt -25.400 0.000) (padstack 0))
+   (leg 3 (pt -25.400 -7.620) (padstack 0))
+   (leg 4 (pt 25.400 -7.620) (padstack 4))
+   (leg 5 (pt 25.400 -3.810) (padstack 0))
+   (leg 6 (pt 25.400 0.000) (padstack 0))
+   (leg 7 (pt 25.400 3.810) (padstack 0))
+   (leg 8 (pt 25.400 7.620) (padstack 8))
+   (padstack 0
+    (hole 1.5748)
+    (plated true)
+    (pad (layer TCOP) (round 2.540))
+    (pad (layer INNER) (round 2.540))
+    (pad (layer BCOP) (round 2.540))
+   )
+   (padstack 4
+    (hole 2.1336)
+    (plated true)
+    (pad (layer TCOP) (round 3.200))
+    (pad (layer INNER) (round 3.200))
+    (pad (layer BCOP) (round 3.200))
+   )
+   (padstack 8
+    (hole 2.1336)
+    (plated true)
+    (pad (layer TCOP) (round 3.200))
+    (pad (layer INNER) (round 3.200))
+    (pad (layer BCOP) (round 3.200))
+   )
+   (model "UWE-12_10-Q12PB-C.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)
