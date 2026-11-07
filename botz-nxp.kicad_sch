@@ -4819,121 +4819,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 151.13 189.23)
@@ -5166,12 +5051,6 @@
 		(uuid "292afe52-ba68-4955-9de4-faf406bb8eaa")
 	)
 	(junction
-		(at 172.72 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c52e202-0c77-4d24-8179-edee48df65b2")
-	)
-	(junction
 		(at 318.77 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5196,10 +5075,10 @@
 		(uuid "6b2a6ae8-b228-4924-91dd-5aceafdb09c7")
 	)
 	(junction
-		(at 190.5 162.56)
+		(at 137.16 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8f1dd6a6-5b2a-4cd6-9143-130a963302bc")
+		(uuid "7f9230b4-c807-4e6a-a671-de613662f415")
 	)
 	(junction
 		(at 342.9 130.81)
@@ -5248,12 +5127,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d507208e-3141-4b5f-b5d4-366446d0fec9")
-	)
-	(junction
-		(at 27.94 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd02eb13-0ad2-4418-aec6-495355f23c37")
 	)
 	(junction
 		(at 341.63 53.34)
@@ -5543,6 +5416,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 109.22) (xy 137.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c92c880-3159-47d4-a323-2bae583419da")
+	)
+	(wire
+		(pts
 			(xy 346.71 59.69) (xy 346.71 62.23)
 		)
 		(stroke
@@ -5553,7 +5436,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 76.2) (xy 172.72 77.47)
+			(xy 172.72 76.2) (xy 172.72 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5580,16 +5463,6 @@
 			(type default)
 		)
 		(uuid "2898e370-2b02-4578-9478-ccee8fad7fc5")
-	)
-	(wire
-		(pts
-			(xy 172.72 77.47) (xy 172.72 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28c76f34-44f3-43d5-b973-2ad9246a6f74")
 	)
 	(wire
 		(pts
@@ -6083,16 +5956,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 97.79) (xy 137.16 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a590504-3850-4e2a-b15c-8ddfd037d54a")
-	)
-	(wire
-		(pts
 			(xy 203.2 220.98) (xy 205.74 220.98)
 		)
 		(stroke
@@ -6423,16 +6286,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 109.22) (xy 137.16 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b52e4ab9-10b1-423b-9b9a-342fa8953ac3")
-	)
-	(wire
-		(pts
 			(xy 311.15 222.25) (xy 318.77 222.25)
 		)
 		(stroke
@@ -6450,16 +6303,6 @@
 			(type default)
 		)
 		(uuid "b749a38b-7077-40f5-a1ad-da77cf152b22")
-	)
-	(wire
-		(pts
-			(xy 128.27 100.33) (xy 128.27 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb8d5629-e964-4413-9a1b-503141048e12")
 	)
 	(wire
 		(pts
@@ -6733,16 +6576,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 107.95) (xy 128.27 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f643ed06-2dce-45f6-b7a6-28123fcd4968")
-	)
-	(wire
-		(pts
 			(xy 349.25 115.57) (xy 353.06 115.57)
 		)
 		(stroke
@@ -6770,16 +6603,6 @@
 			(type default)
 		)
 		(uuid "fbccb5f4-b9a6-4063-9da8-62ca56d2be49")
-	)
-	(label "NRST"
-		(at 137.16 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "050cfcdd-b75f-4cf1-8266-8c2d100fac27")
 	)
 	(label "SD_MISO"
 		(at 210.82 115.57 0)
@@ -6852,7 +6675,7 @@
 		(uuid "307920d7-b5a9-4ee1-a624-1be0b11b0fbb")
 	)
 	(label "NRST"
-		(at 128.27 114.3 0)
+		(at 144.78 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9297,7 +9120,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-Resistor:10k_0402")
-		(at 128.27 105.41 90)
+		(at 134.62 109.22 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9308,7 +9131,7 @@
 		(fields_autoplaced yes)
 		(uuid "5abe80ac-11f2-4e9c-9fab-f4ff9077b651")
 		(property "Reference" "R1"
-			(at 130.81 104.1399 90)
+			(at 133.3499 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9319,7 +9142,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 130.81 106.6799 90)
+			(at 135.8899 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9330,7 +9153,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
-			(at 132.08 105.41 0)
+			(at 134.62 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9341,7 +9164,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 137.16 105.41 0)
+			(at 134.62 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9352,7 +9175,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 139.7 105.41 0)
+			(at 134.62 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9363,7 +9186,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-25567"
-			(at 134.62 105.41 0)
+			(at 134.62 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9468,7 +9291,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 137.16 113.03 0)
+		(at 137.16 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9479,7 +9302,7 @@
 		(fields_autoplaced yes)
 		(uuid "619f1f6a-4462-4261-bb89-c9be9e66fbdc")
 		(property "Reference" "#PWR013"
-			(at 137.16 119.38 0)
+			(at 137.16 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9490,7 +9313,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 116.84 0)
+			(at 137.16 118.11 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -9500,7 +9323,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 113.03 0)
+			(at 137.16 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9511,7 +9334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 113.03 0)
+			(at 137.16 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9522,7 +9345,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 121.92 0)
+			(at 137.16 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9851,84 +9674,6 @@
 			(project "botz-nxp"
 				(path "/3b84b015-9a2c-4738-9079-eaed691fd25e"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 27.94 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b636470-3167-4a8e-88b1-9c0691ff8c43")
-		(property "Reference" "#FLG02"
-			(at 27.94 24.765 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 27.94 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.254 0.254)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 27.94 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "427ea5c1-51cb-4dfd-89b6-06a2f029b379")
-		)
-		(instances
-			(project "botz-nxp"
-				(path "/3b84b015-9a2c-4738-9079-eaed691fd25e"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -11091,7 +10836,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-Capacitor:0.1uF_0402_16V_10%")
-		(at 137.16 106.68 180)
+		(at 137.16 111.76 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11099,75 +10844,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9155a03f-46af-46cb-be90-f816310c5318")
 		(property "Reference" "C13"
-			(at 139.7 102.8635 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 139.7 105.4035 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0402_1005Metric"
-			(at 137.16 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
-			(at 137.16 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 137.16 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" "CAP-25565"
-			(at 137.16 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 139.7 107.9435 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11178,8 +10856,74 @@
 				(justify right)
 			)
 		)
-		(property "Tolerance" "10%"
+		(property "Value" "0.1uF"
 			(at 139.7 110.4835 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0402_1005Metric"
+			(at 137.16 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+			(at 137.16 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 137.16 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "CAP-25565"
+			(at 137.16 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 139.7 113.0235 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 139.7 115.5635 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12558,84 +12302,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 172.72 77.47 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c02494e9-4177-4326-8ee4-99ca31a0faf7")
-		(property "Reference" "#FLG01"
-			(at 170.815 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 172.212 75.946 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.254 0.254)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 172.72 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c71d3ca4-3925-4cea-a03a-276b0221aff0")
-		)
-		(instances
-			(project "botz-nxp"
-				(path "/3b84b015-9a2c-4738-9079-eaed691fd25e"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
 		(at 342.9 125.73 90)
 		(unit 1)
@@ -12977,7 +12643,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:3.3V")
-		(at 128.27 100.33 0)
+		(at 132.08 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12988,7 +12654,7 @@
 		(fields_autoplaced yes)
 		(uuid "cdeace5d-63de-4037-8b8f-470c5acc0343")
 		(property "Reference" "#PWR027"
-			(at 128.27 104.14 0)
+			(at 135.89 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12999,7 +12665,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 128.27 96.52 0)
+			(at 128.27 109.22 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -13009,7 +12675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 100.33 0)
+			(at 132.08 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13020,7 +12686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 100.33 0)
+			(at 132.08 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13031,7 +12697,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 128.27 106.68 0)
+			(at 138.43 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13876,84 +13542,6 @@
 			(project "botz-nxp"
 				(path "/3b84b015-9a2c-4738-9079-eaed691fd25e"
 					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 190.5 162.56 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e0b27cd5-2686-4c88-a02d-57b256adc681")
-		(property "Reference" "#FLG03"
-			(at 192.405 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 193.548 162.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.254 0.254)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 190.5 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4b9f31db-6894-46a0-94f2-2ffac9b32e6c")
-		)
-		(instances
-			(project "botz-nxp"
-				(path "/3b84b015-9a2c-4738-9079-eaed691fd25e"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
